@@ -418,6 +418,11 @@ main{
     width: 100%;
     padding: 0 40px;
 }
+
+.footer a:hover {
+    color: var(--tertiary-color);
+}
+
 .footer-logo {
     color: var(--tertiary-color);
     font-family: "Raleway", sans-serif;
@@ -428,6 +433,7 @@ main{
     text-decoration: none;
     margin-right: 40px;
 }
+
 .footer-logo-span {
     color: var(--primary-color);
 }
