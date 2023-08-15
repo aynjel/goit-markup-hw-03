@@ -106,10 +106,7 @@ header {
 }
 
 main{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: 80px;
+    display: block;
     width: 100%;
 }
 
@@ -117,7 +114,7 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 40px;
+    gap: 76px;
 }
 
 .nav .logo {
@@ -128,7 +125,6 @@ main{
     font-weight: 800;
     text-transform: uppercase;
     text-decoration: none;
-    margin-right: 40px;
 }
 .nav .logo-span {
     color: var(--primary-color);
@@ -157,7 +153,6 @@ main{
 
 .section{
     margin: 0;
-    padding: 120px 0;
     width: 100%;
     height: auto;
     display: flex;
@@ -169,7 +164,7 @@ main{
     flex-direction: column;
     gap: 40px;
     background-color: var(--secondary-color);
-    height: calc(100vh - 72px);
+    height: 600px;
 }
 
 .title{
@@ -184,8 +179,9 @@ main{
     color: var(--tertiary-color);
     font-size: 1rem;
     font-weight: 500;
-    padding: 16px 24px;
+    padding: 16px 32px;
     text-transform: capitalize;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
     transition: all 0.1s ease-in-out;
 }
 
@@ -200,7 +196,7 @@ main{
 
 .about{
     flex-direction: column;
-    padding: 0 40px;
+    padding: 120px 40px;
 }
 
 .about-title{
@@ -237,7 +233,7 @@ main{
 
 .services{
     flex-direction: column;
-    padding: 0 40px;
+    padding: 0 40px 120px;
 }
 
 .services-title{
@@ -257,7 +253,7 @@ main{
 
 .teams{
     flex-direction: column;
-    padding: 80px 40px;
+    padding: 120px 40px;
     background-color: var(--tertiary-color);
 }
 
@@ -281,11 +277,23 @@ main{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 20px;
-    text-align: left;
+    gap: 32px;
+    background: #fff;
     border: 1px solid var(--quaternary-color);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    padding-bottom: 10px;
+    box-shadow: 
+        0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+        0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+        0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    border-radius: 4px;
+}
+
+.teams-list-item-details{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 32px;
 }
 
 .teams-list-item img{
