@@ -13,38 +13,38 @@ h1, h2, h3, h4, h5, h6{
 p{
     margin: 0;
     padding: 0;
-    font-size: 1rem;
+    font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
 }
 
 h1{
-    font-size: 4rem;
+    font-size: 64px;
     font-weight: 700;
 }
 
 h2{
-    font-size: 3rem;
+    font-size: 48px;
     font-weight: 600;
 }
 
 h3{
-    font-size: 2rem;
+    font-size: 32px;
     font-weight: 500;
 }
 
 h4{
-    font-size: 1.5rem;
+    font-size: 24px;
     font-weight: 500;
 }
 
 h5{
-    font-size: 1.25rem;
+    font-size: 20px;
     font-weight: 500;
 }
 
 h6{
-    font-size: 1rem;
+    font-size: 16px;
     font-weight: 500;
 }
 
@@ -85,8 +85,8 @@ header {
     justify-content: center;
     align-items: center;
     width: 100%;
-    border-bottom: 1px solid var(--cornflower, #E7E9FC);
-    background: var(--white, #FFF);
+    border-bottom: 1px solid #E7E9FC;
+    background: #FFFFFF;
     padding: 24px 40px;
 }
 
@@ -103,16 +103,16 @@ main{
 }
 
 .nav .logo {
-    color: var(--navyblue, #2E2F42);
+    color: #2E2F42;
     font-family: "Raleway", sans-serif;
-    font-size: 1.125rem;
+    font-size: 18px;
     font-style: normal;
     font-weight: 800;
     text-transform: uppercase;
     text-decoration: none;
 }
 .nav .logo-span {
-    color: var(--iris, #4D5AE5);
+    color: #4D5AE5;
 }
 
 .nav-list {
@@ -124,11 +124,11 @@ main{
 
 .nav-list-item a {
     font-weight: 500;
-    color: var(--navyblue, #2E2F42);
+    color: #2E2F42;
 }
 
 .nav-list-item a:hover {
-    color: var(--iris, #4D5AE5);
+    color: #4D5AE5;
 }
 
 .address {
@@ -139,11 +139,11 @@ main{
 }
 .address a {
     font-style: normal;
-    color: var(--slate, #434455);
+    color: #434455;
 }
 
 .address a:hover {
-    color: var(--iris, #4D5AE5);
+    color: #4D5AE5;
 }
 
 .section{
@@ -158,31 +158,31 @@ main{
 .hero{
     flex-direction: column;
     gap: 40px;
-    background: var(--navyblue, #2E2F42);
+    background: #2E2F42;
     height: 600px;
 }
 
 .title{
     font-family: "Raleway", sans-serif;
     text-align: center;
-    color: var(--white, #FFF);
+    color: #FFFFFF;
 }
 
 .cta-btn{
-    font-size: 1rem;
+    font-size: 16px;
     font-weight: 500;
     padding: 16px 32px;
     text-transform: capitalize;
     border-radius: 4px;
-    color: var(--white, #FFF);
-    background: var(--iris, #4D5AE5);
+    color: #FFFFFF;
+    background: #4D5AE5;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     transition: all 0.1s ease-in-out;
 }
 
 .cta-btn:hover{
-    background: var(--cornflower, #E7E9FC);
-    color: var(--iris, #4D5AE5);
+    background: #E7E9FC;
+    color: #4D5AE5;
 }
 
 .cta-btn:active{
@@ -196,7 +196,7 @@ main{
 
 .about-title{
     text-align: center;
-    color: var(--secondary-color);
+    color: #2E2F42;
     font-size: 2rem;
     font-weight: 500;
     margin-bottom: 40px;
@@ -217,13 +217,13 @@ main{
 }
 
 .about-list-item h3{
-    font-size: 1.3rem;
-    color: var(--secondary-color);
+    font-size: 22px;
+    color: #2E2F42;
 }
 
 .about-list-item p{
-    font-size: 1rem;
-    color: var(--quinary-color);
+    font-size: 16px;
+    color: #434455;
 }
 
 .services{
@@ -233,8 +233,8 @@ main{
 
 .services-title{
     text-align: center;
-    color: var(--secondary-color);
-    font-size: 2rem;
+    color: #2E2F42;
+    font-size: 32px;
     font-weight: 500;
     margin-bottom: 40px;
 }
@@ -249,13 +249,13 @@ main{
 .teams{
     flex-direction: column;
     padding: 120px 40px;
-    background-color: var(--tertiary-color);
+    background-color: #F4F4FD;
 }
 
 .teams-title{
     text-align: center;
-    color: var(--secondary-color);
-    font-size: 2rem;
+    color: #2E2F42;
+    font-size: 32px;
     font-weight: 500;
     margin-bottom: 40px;
 }
@@ -274,7 +274,7 @@ main{
     flex-direction: column;
     gap: 32px;
     background: #fff;
-    border: 1px solid var(--quaternary-color);
+    border: 1px solid #E7E9FC;
     box-shadow: 
         0px 2px 1px 0px rgba(46, 47, 66, 0.08),
         0px 1px 1px 0px rgba(46, 47, 66, 0.16),
@@ -298,13 +298,13 @@ main{
 }
 
 .teams-list-item h3{
-    font-size: 1.2rem;
-    color: var(--secondary-color);
+    font-size: 20px;
+    color: #2E2F42;
 }
 
 .teams-list-item p{
-    font-size: 1rem;
-    color: var(--quinary-color);
+    font-size: 16px;
+    color: #434455;
 }
 
 .portfolio{
@@ -314,8 +314,8 @@ main{
 
 .portfolio-title{
     text-align: center;
-    color: var(--secondary-color);
-    font-size: 2rem;
+    color: #2E2F42;
+    font-size: 32px;
     font-weight: 500;
     margin-bottom: 40px;
 }
@@ -336,20 +336,20 @@ main{
 }
 
 .filter-list-item .filter-buttons{
-    font-size: 1rem;
+    font-size: 16px;
     font-weight: 500;
-    color: var(--quinary-color);
+    color: #2E2F42;
     padding: 12px 24px;
     border-radius: 4px;
-    color: var(--iris, #4D5AE5);
-    border: 1px solid var(--cornflower, #E7E9FC);
-    background: var(--cloud, #F4F4FD);
+    color: #4D5AE5;
+    border: 1px solid #E7E9FC;
+    background: #F4F4FD;
     transition: all 0.3s ease-in-out;
 }
 
 .filter-list-item .filter-buttons:hover{
-    background: var(--cornflower, #E7E9FC);
-    color: var(--iris, #4D5AE5);
+    background: #E7E9FC;
+    color: #4D5AE5;
 }
 
 .filter-list-item .filter-buttons:active{
@@ -359,8 +359,8 @@ main{
 .filter-list-item .filter-active{
     border-radius: 4px;
     border: none;
-    background: var(--ocean, #404BBF);
-    color: var(--white, #FFF);
+    background: #404BBF;
+    color: #FFFFFF;
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
@@ -377,8 +377,8 @@ main{
     display: flex;
     flex-direction: column;
     gap: 30px;
-    border: 1px solid var(--cornflower, #E7E9FC);
-    background: var(--white, #FFF);
+    border: 1px solid #E7E9FC;
+    background: #FFFFFF;
     padding-bottom: 30px;
     width: calc(33.33% - 20px);
     cursor: pointer;
@@ -402,13 +402,13 @@ main{
 }
 
 .list-item-content h3{
-    font-size: 1.2rem;
-    color: var(--secondary-color);
+    font-size: 20px;
+    color: #2E2F42;
 }
 
 .list-item-content p{
-    font-size: 1rem;
-    color: var(--quinary-color);
+    font-size: 16px;
+    color: #434455;
 }
 
 .footer {
@@ -416,16 +416,16 @@ main{
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    background: var(--navyblue, #2E2F42);
+    background: #2E2F42;
     height: 312px;
     width: 100%;
     padding: 0 40px;
 }
 
 .footer-logo {
-    color: var(--iris, #4D5AE5);
+    color: #4D5AE5;
     font-family: "Raleway", sans-serif;
-    font-size: 1.125rem;
+    font-size: 22px;
     font-style: normal;
     font-weight: 700;
     text-transform: uppercase;
@@ -434,12 +434,12 @@ main{
 }
 
 .footer-logo-span {
-    color: var(--cloud, #F4F4FD);
+    color: #F4F4FD;
 }
 
 .footer p {
-    font-size: 1rem;
-    color: var(--cloud, #F4F4FD);
+    font-size: 16px;
+    color: #F4F4FD;
     width: 264px;
     line-height: 1.2;
     margin-top: 16px;
