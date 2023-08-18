@@ -85,8 +85,8 @@ header {
     justify-content: center;
     align-items: center;
     width: 100%;
-    border-bottom: 1px solid #E7E9FC;
-    background: #FFFFFF;
+    border-bottom: 1px solid var(--cornflower, #E7E9FC);
+    background: var(--white, #FFF);
     padding: 24px 40px;
 }
 
@@ -103,7 +103,7 @@ main{
 }
 
 .nav .logo {
-    color: #2E2F42;
+    color: var(--navyblue, #2E2F42);
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-style: normal;
@@ -112,7 +112,7 @@ main{
     text-decoration: none;
 }
 .nav .logo-span {
-    color: #4D5AE5;
+    color: var(--iris, #4D5AE5);
 }
 
 .nav-list {
@@ -124,11 +124,11 @@ main{
 
 .nav-list-item a {
     font-weight: 500;
-    color: #2E2F42;
+    color: var(--navyblue, #2E2F42);
 }
 
 .nav-list-item a:hover {
-    color: #4D5AE5;
+    color: var(--iris, #4D5AE5);
 }
 
 .address {
@@ -139,11 +139,11 @@ main{
 }
 .address a {
     font-style: normal;
-    color: #434455;
+    color: var(--slate, #434455);
 }
 
 .address a:hover {
-    color: #4D5AE5;
+    color: var(--iris, #4D5AE5);
 }
 
 .section{
@@ -158,14 +158,14 @@ main{
 .hero{
     flex-direction: column;
     gap: 40px;
-    background: #2E2F42;
+    background: var(--navyblue, #2E2F42);
     height: 600px;
 }
 
 .title{
     font-family: "Raleway", sans-serif;
     text-align: center;
-    color: #FFFFFF;
+    color: var(--white, #FFF);
 }
 
 .cta-btn{
@@ -174,15 +174,15 @@ main{
     padding: 16px 32px;
     text-transform: capitalize;
     border-radius: 4px;
-    color: #FFFFFF;
-    background: #4D5AE5;
+    color: var(--white, #FFF);
+    background: var(--iris, #4D5AE5);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     transition: all 0.1s ease-in-out;
 }
 
 .cta-btn:hover{
-    background: #E7E9FC;
-    color: #4D5AE5;
+    background: var(--cornflower, #E7E9FC);
+    color: var(--iris, #4D5AE5);
 }
 
 .cta-btn:active{
@@ -196,7 +196,7 @@ main{
 
 .about-title{
     text-align: center;
-    color: #2E2F42;
+    color: var(--navyblue, #2E2F42);
     font-size: 2rem;
     font-weight: 500;
     margin-bottom: 40px;
@@ -218,12 +218,12 @@ main{
 
 .about-list-item h3{
     font-size: 22px;
-    color: #2E2F42;
+    color: var(--navyblue, #2E2F42);
 }
 
 .about-list-item p{
     font-size: 16px;
-    color: #434455;
+    color: var(--slate, #434455);
 }
 
 .services{
@@ -233,7 +233,7 @@ main{
 
 .services-title{
     text-align: center;
-    color: #2E2F42;
+    color: var(--navyblue, #2E2F42);
     font-size: 32px;
     font-weight: 500;
     margin-bottom: 40px;
@@ -249,12 +249,12 @@ main{
 .teams{
     flex-direction: column;
     padding: 120px 40px;
-    background-color: #F4F4FD;
+    background-color: var(--cloud, #F4F4FD);
 }
 
 .teams-title{
     text-align: center;
-    color: #2E2F42;
+    color: var(--navyblue, #2E2F42);
     font-size: 32px;
     font-weight: 500;
     margin-bottom: 40px;
@@ -273,8 +273,8 @@ main{
     align-items: center;
     flex-direction: column;
     gap: 32px;
-    background: #fff;
-    border: 1px solid #E7E9FC;
+    background: var(--white, #FFF);
+    border: 1px solid var(--cornflower, #E7E9FC);
     box-shadow: 
         0px 2px 1px 0px rgba(46, 47, 66, 0.08),
         0px 1px 1px 0px rgba(46, 47, 66, 0.16),
@@ -299,12 +299,12 @@ main{
 
 .teams-list-item h3{
     font-size: 20px;
-    color: #2E2F42;
+    color: var(--navyblue, #2E2F42);
 }
 
 .teams-list-item p{
     font-size: 16px;
-    color: #434455;
+    color: var(--slate, #434455);
 }
 
 .portfolio{
@@ -314,7 +314,7 @@ main{
 
 .portfolio-title{
     text-align: center;
-    color: #2E2F42;
+    color: var(--navyblue, #2E2F42);
     font-size: 32px;
     font-weight: 500;
     margin-bottom: 40px;
@@ -338,18 +338,18 @@ main{
 .filter-list-item .filter-buttons{
     font-size: 16px;
     font-weight: 500;
-    color: #2E2F42;
+    color: var(--navyblue, #2E2F42);
     padding: 12px 24px;
     border-radius: 4px;
-    color: #4D5AE5;
-    border: 1px solid #E7E9FC;
-    background: #F4F4FD;
+    color: var(--iris, #4D5AE5);
+    border: 1px solid var(--cornflower, #E7E9FC);
+    background: var(--cloud, #F4F4FD);
     transition: all 0.3s ease-in-out;
 }
 
 .filter-list-item .filter-buttons:hover{
-    background: #E7E9FC;
-    color: #4D5AE5;
+    background: var(--cornflower, #E7E9FC);
+    color: var(--iris, #4D5AE5);
 }
 
 .filter-list-item .filter-buttons:active{
@@ -359,8 +359,8 @@ main{
 .filter-list-item .filter-active{
     border-radius: 4px;
     border: none;
-    background: #404BBF;
-    color: #FFFFFF;
+    background: var(--iris, #4D5AE5);
+    color: var(--white, #FFF);
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
@@ -376,10 +376,7 @@ main{
 .portfolio-list-item{
     display: flex;
     flex-direction: column;
-    gap: 30px;
-    border: 1px solid #E7E9FC;
-    background: #FFFFFF;
-    padding-bottom: 30px;
+    background: var(--white, #FFF);
     width: calc(33.33% - 20px);
     cursor: pointer;
     transition: all 0.3s ease-in-out;
@@ -398,17 +395,20 @@ main{
     display: flex;
     flex-direction: column;
     gap: 10px;
-    padding: 0 20px;
+    padding: 30px 20px;
+    border-bottom: 1px solid var(--cornflower, #E7E9FC);
+    border-left: 1px solid var(--cornflower, #E7E9FC);
+    border-right: 1px solid var(--cornflower, #E7E9FC);
 }
 
 .list-item-content h3{
     font-size: 20px;
-    color: #2E2F42;
+    color: var(--navyblue, #2E2F42);
 }
 
 .list-item-content p{
     font-size: 16px;
-    color: #434455;
+    color: var(--slate, #434455);
 }
 
 .footer {
@@ -416,14 +416,14 @@ main{
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    background: #2E2F42;
+    background: var(--navyblue, #2E2F42);
     height: 312px;
     width: 100%;
     padding: 0 40px;
 }
 
 .footer-logo {
-    color: #4D5AE5;
+    color: var(--white, #FFF);
     font-family: "Raleway", sans-serif;
     font-size: 22px;
     font-style: normal;
@@ -434,12 +434,12 @@ main{
 }
 
 .footer-logo-span {
-    color: #F4F4FD;
+    color: var(--iris, #4D5AE5);
 }
 
 .footer p {
     font-size: 16px;
-    color: #F4F4FD;
+    color: var(--cloud, #F4F4FD);
     width: 264px;
     line-height: 1.2;
     margin-top: 16px;
